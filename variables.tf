@@ -1,0 +1,9 @@
+variable "vpc_cidr" {}
+variable "vpc_name" {}
+variable "subnet_cidr" {}
+variable "subnet_name" {}
+variable "az" {}
+variable "key_name" {}
+variable "public_key_path" {}
+variable "instance_type" {}
+variable "ami" {}

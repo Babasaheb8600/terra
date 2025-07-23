@@ -1,0 +1,9 @@
+vpc_cidr          = "10.0.0.0/16"
+vpc_name          = "my-vpc"
+subnet_cidr       = "10.0.1.0/24"
+subnet_name       = "public-subnet"
+az                = "ap-south-1a"
+key_name          = "web-key"
+public_key_path   = "keys/web-key.pub"
+instance_type     = "t2.micro"
+ami               = "ami-0f918f7e67a3323f0"  # Ubuntu AMI
